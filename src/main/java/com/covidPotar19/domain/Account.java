@@ -11,7 +11,6 @@ public class Account
     private Long id;
 
     private String name;
-    private String email;
     private String userId;
     private String password;
 
@@ -35,14 +34,14 @@ public class Account
         this.name = name;
     }
 
-    public String getEmail()
+    public String getUserId()
     {
-        return email;
+        return userId;
     }
 
-    public void setEmail(String email)
+    public void setUserId(String userId)
     {
-        this.email = email;
+        this.userId = userId;
     }
 
     public String getPassword()
