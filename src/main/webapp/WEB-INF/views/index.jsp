@@ -13,4 +13,6 @@
 <footer>
 	<div>footer</div>
 </footer>
+
+<button onclick="location.href = 'signInForm'">로그인</button>
 </html>
