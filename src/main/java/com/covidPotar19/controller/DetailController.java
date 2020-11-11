@@ -9,6 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
+import java.io.UnsupportedEncodingException;
 
 @Controller
 public class DetailController {
@@ -26,8 +27,6 @@ public class DetailController {
     public String detailMapController(Model model, HttpServletRequest request) {
 
         String result = detailService.getJsonData(1, 10, 20201101, 20201103);
-
-        logger.info(result);
 
         request.setAttribute("result",result);
         return "detail";
