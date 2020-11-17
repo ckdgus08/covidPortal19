@@ -45,4 +45,5 @@
 </footer>
 
 <button onclick="location.href = 'signInForm'">로그인</button>
+<button onclick="location.href = 'signUpForm'">회원가입</button>
 </html>
