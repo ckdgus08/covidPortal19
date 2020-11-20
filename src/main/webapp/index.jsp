@@ -41,8 +41,21 @@
 </body>
 
 <footer>
-	<div>footer</div>
+	<form role="form" method="post" autocomplete="off">
+		<p>
+			<label for="userId">아이디</label>
+			<input type="text" id="userId" name="userId" />
+		</p>
+		<p>
+			<label for="userPass">아이디</label>
+			<input type="password" id="userPass" name="userPass" />
+		</p>
+		<p><button type="submit">로그인</button>
+			<button type="button" onclick="location.href='/members/new' ">회원가입</button>
+		</p>
+	</form>
 </footer>
 
-<button onclick="location.href = 'signInForm'">로그인</button>
+
+
 </html>
