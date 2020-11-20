@@ -1,7 +1,5 @@
-package com.covidPotar19.servlet;
+package com.covidPotar19.controller;
 
-import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 public class SignInController {

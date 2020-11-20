@@ -1,7 +1,7 @@
 package com.covidPotar19;
 
-import com.covidPotar19.servlet.DetailServlet;
-import com.covidPotar19.servlet.GoogleMapServlet;
+import com.covidPotar19.controller.DetailServlet;
+import com.covidPotar19.controller.GoogleMapServlet;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
