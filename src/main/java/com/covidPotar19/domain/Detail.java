@@ -7,10 +7,10 @@ public class Detail {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    long id;
+    private long id;
 
-    int pageNo;
-    int numOfRows;
-    int startCreateDt;
-    int endCreateDt;
+    private int pageNo;
+    private int numOfRows;
+    private int startCreateDt;
+    private int endCreateDt;
 }
