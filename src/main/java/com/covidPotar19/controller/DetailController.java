@@ -1,7 +1,6 @@
 package com.covidPotar19.controller;
 
 import com.covidPotar19.domain.Detail;
-import com.covidPotar19.repository.DetailRepository;
 import com.covidPotar19.service.DetailService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

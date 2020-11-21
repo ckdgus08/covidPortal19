@@ -1,10 +1,3 @@
-<%@ page import="java.time.LocalDateTime" %>
-<%@ page import="org.apache.logging.log4j.message.StringFormattedMessage" %>
-<%@ page import="com.covidPotar19.service.DetailService" %>
-<%@ page import="com.covidPotar19.repository.DetailRepository" %>
-<%@ page import="org.apache.catalina.core.ApplicationContext" %>
-<%@ page import="org.apache.catalina.core.StandardContext" %>
-<%@ page import="org.springframework.context.annotation.AnnotationConfigApplicationContext" %>
 <%@ page import="com.covidPotar19.domain.Detail" %>
 <%@ page import="java.util.List" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
@@ -50,7 +43,7 @@
 				<a class="nav-link" href="googleMap.jsp">map</a>
 			</li>
 			<li class="nav-item active">
-				<a class="nav-link" href="detail.jsp">detail</a>
+				<a class="nav-link" href="detail">detail</a>
 			</li>
 		</ul>
 		<form class="form-inline my-2 my-lg-0">
