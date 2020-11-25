@@ -1,4 +1,7 @@
-[INFO ] 2020-11-21 20:11:51.478 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-[INFO ] 2020-11-21 20:11:51.481 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-[INFO ] 2020-11-21 20:11:51.483 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
-[INFO ] 2020-11-21 20:11:51.497 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 15:10:26.735 [restartedMain] DemoApplication - Started DemoApplication in 3.59 seconds (JVM running for 5.667)
+[INFO ] 2020-11-25 15:10:27.067 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 15:10:27.079 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 15:15:15.782 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 15:15:15.785 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 15:15:15.787 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 15:15:15.797 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.

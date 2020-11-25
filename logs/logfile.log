@@ -5592,3 +5592,1138 @@ java.sql.SQLSyntaxErrorException: Unknown database 'example'
 [INFO ] 2020-11-21 20:11:51.481 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 [INFO ] 2020-11-21 20:11:51.483 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
 [INFO ] 2020-11-21 20:11:51.497 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-21 20:30:11.861 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 54076 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-21 20:30:11.867 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-21 20:30:11.905 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-21 20:30:11.906 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-21 20:30:12.526 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-21 20:30:12.548 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-21 20:30:12.994 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-21 20:30:13.002 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-21 20:30:13.003 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-21 20:30:13.004 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-21 20:30:13.154 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-21 20:30:13.160 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-21 20:30:13.162 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1252 ms
+[INFO ] 2020-11-21 20:30:13.268 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-21 20:30:13.306 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-21 20:30:13.353 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-21 20:30:13.507 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-21 20:30:13.598 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-21 20:30:13.674 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-21 20:30:13.692 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-21 20:30:13.707 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-21 20:30:13.882 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-21 20:30:14.021 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-21 20:30:14.037 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-21 20:30:14.053 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-21 20:30:14.053 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-21 20:30:14.059 [restartedMain] DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2020-11-21 20:30:14.064 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-21 20:30:14.066 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-21 20:30:14.066 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-21 20:30:14.089 [restartedMain] DemoApplication - Started DemoApplication in 2.478 seconds (JVM running for 3.737)
+[INFO ] 2020-11-21 20:30:14.276 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-21 20:30:14.283 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-21 20:30:38.481 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-21 20:30:38.497 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-21 20:30:38.499 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-21 20:30:38.569 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-23 00:49:28.657 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 59089 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-23 00:49:28.664 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-23 00:49:28.710 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-23 00:49:28.711 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-23 00:49:29.291 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-23 00:49:29.315 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-23 00:49:29.826 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-23 00:49:29.846 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-23 00:49:29.846 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-23 00:49:29.848 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-23 00:49:30.083 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-23 00:49:30.094 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-23 00:49:30.095 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1384 ms
+[INFO ] 2020-11-23 00:49:30.206 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-23 00:49:30.241 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-23 00:49:30.285 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-23 00:49:30.416 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-23 00:49:30.500 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-23 00:49:30.643 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-23 00:49:30.661 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-23 00:49:30.677 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-23 00:49:30.859 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-23 00:49:31.039 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-23 00:49:31.059 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-23 00:49:31.081 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-23 00:49:31.083 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-23 00:49:31.092 [restartedMain] DispatcherServlet - Completed initialization in 8 ms
+[INFO ] 2020-11-23 00:49:31.096 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-23 00:49:31.098 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-23 00:49:31.099 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-23 00:49:31.111 [restartedMain] DemoApplication - Started DemoApplication in 2.735 seconds (JVM running for 3.833)
+[INFO ] 2020-11-23 00:49:31.267 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-23 00:49:31.277 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2020-11-23 00:50:07.223 [http-nio-8080-exec-6] SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+[ERROR] 2020-11-23 00:50:07.224 [http-nio-8080-exec-6] SqlExceptionHelper - Duplicate entry '20201120' for key 'detail.PRIMARY'
+[ERROR] 2020-11-23 00:50:07.236 [http-nio-8080-exec-6] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [detail.PRIMARY]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '20201120' for key 'detail.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-3.4.5.jar:?]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3255) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3782) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:107) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[?:?]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:348) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1363) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:454) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3213) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2381) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:447) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:534) ~[spring-orm-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743) ~[spring-tx-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711) ~[spring-tx-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:633) ~[spring-tx-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:386) ~[spring-tx-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691) ~[spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at com.covidPotar19.repository.DetailRepository$$EnhancerBySpringCGLIB$$2e78eb06.saveDetail(<generated>) ~[main/:?]
+	at com.covidPotar19.service.DetailService.getDetail(DetailService.java:57) ~[main/:?]
+	at com.covidPotar19.controller.DetailController.detail(DetailController.java:53) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[WARN ] 2020-11-23 00:54:16.114 [http-nio-8080-exec-8] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[INFO ] 2020-11-23 00:55:40.947 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-23 00:55:40.950 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-23 00:55:40.952 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-23 00:55:40.963 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-23 00:55:46.195 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 59155 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-23 00:55:46.203 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-23 00:55:46.247 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-23 00:55:46.247 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-23 00:55:46.838 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-23 00:55:46.857 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-23 00:55:47.360 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-23 00:55:47.369 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-23 00:55:47.370 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-23 00:55:47.371 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-23 00:55:47.638 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-23 00:55:47.651 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-23 00:55:47.651 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1403 ms
+[INFO ] 2020-11-23 00:55:47.860 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-23 00:55:47.944 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-23 00:55:48.014 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-23 00:55:48.167 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-23 00:55:48.283 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-23 00:55:48.488 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-23 00:55:48.509 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-23 00:55:48.563 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-23 00:55:49.246 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-23 00:55:50.251 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-23 00:55:50.318 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-23 00:55:50.437 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-23 00:55:50.447 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-23 00:55:50.477 [restartedMain] DispatcherServlet - Completed initialization in 30 ms
+[INFO ] 2020-11-23 00:55:50.485 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-23 00:55:50.488 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-23 00:55:50.489 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-23 00:55:50.503 [restartedMain] DemoApplication - Started DemoApplication in 4.793 seconds (JVM running for 5.829)
+[INFO ] 2020-11-23 00:55:50.669 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-23 00:55:50.681 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2020-11-23 00:56:02.165 [http-nio-8080-exec-2] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[WARN ] 2020-11-23 03:06:41.777 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h23s157ms).
+[WARN ] 2020-11-23 05:42:26.115 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h35m14s168ms).
+[WARN ] 2020-11-23 10:41:54.445 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h59m28s330ms).
+[WARN ] 2020-11-23 15:02:47.368 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h20m22s918ms).
+[WARN ] 2020-11-23 15:08:22.828 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m5s450ms).
+[WARN ] 2020-11-23 15:19:39.444 [http-nio-8080-exec-4] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[INFO ] 2020-11-23 15:19:45.988 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-23 15:19:46.002 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-23 15:19:46.010 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-23 15:19:46.087 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 12:37:18.092 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 10857 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 12:37:18.100 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 12:37:18.162 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 12:37:18.162 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 12:37:18.838 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 12:37:18.863 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 12:37:19.366 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 12:37:19.378 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 12:37:19.379 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 12:37:19.380 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 12:37:19.615 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 12:37:19.622 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 12:37:19.622 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1460 ms
+[INFO ] 2020-11-25 12:37:19.727 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 12:37:19.765 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 12:37:19.819 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 12:37:19.981 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 12:37:20.074 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 12:37:20.253 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 12:37:20.275 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 12:37:20.299 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 12:37:20.492 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 12:37:20.659 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 12:37:20.679 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 12:37:20.700 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 12:37:20.702 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 12:37:20.709 [restartedMain] DispatcherServlet - Completed initialization in 7 ms
+[INFO ] 2020-11-25 12:37:20.713 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 12:37:20.715 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 12:37:20.716 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 12:37:20.725 [restartedMain] DemoApplication - Started DemoApplication in 3.189 seconds (JVM running for 4.447)
+[INFO ] 2020-11-25 12:37:20.912 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 12:37:20.926 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2020-11-25 12:37:29.311 [http-nio-8080-exec-3] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[WARN ] 2020-11-25 12:37:37.486 [http-nio-8080-exec-9] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[INFO ] 2020-11-25 12:45:18.952 [Thread-5] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 12:45:18.957 [Thread-5] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 12:45:18.961 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 12:45:18.982 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 12:45:19.170 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 10857 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 12:45:19.173 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 12:45:19.568 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 12:45:19.573 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 12:45:19.826 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 12:45:19.828 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 12:45:19.829 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 12:45:19.829 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 12:45:19.937 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 12:45:19.940 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 12:45:19.944 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 762 ms
+[INFO ] 2020-11-25 12:45:20.012 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 12:45:20.019 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 12:45:20.026 [task-1] HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2020-11-25 12:45:20.057 [task-1] HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2020-11-25 12:45:20.058 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 12:45:20.121 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 12:45:20.148 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 12:45:20.150 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 12:45:20.187 [task-2] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 12:45:20.208 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 12:45:20.311 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 12:45:20.317 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 12:45:20.317 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 12:45:20.320 [restartedMain] DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2020-11-25 12:45:20.321 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 12:45:20.322 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 12:45:20.324 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 12:45:20.332 [restartedMain] DemoApplication - Started DemoApplication in 1.227 seconds (JVM running for 484.061)
+[INFO ] 2020-11-25 12:45:20.337 [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-11-25 12:52:02.672 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 12:52:02.679 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 12:52:02.680 [SpringContextShutdownHook] HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 2020-11-25 12:52:02.695 [SpringContextShutdownHook] HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 2020-11-25 12:52:16.942 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11033 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 12:52:16.967 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 12:52:17.017 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 12:52:17.017 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 12:52:17.621 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 12:52:17.644 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 12:52:18.109 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 12:52:18.133 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 12:52:18.134 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 12:52:18.134 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 12:52:18.350 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 12:52:18.362 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 12:52:18.363 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1345 ms
+[INFO ] 2020-11-25 12:52:18.487 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 12:52:18.538 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 12:52:18.583 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 12:52:18.711 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 12:52:18.794 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 12:52:18.908 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 12:52:18.928 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 12:52:18.948 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 12:52:19.184 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 12:52:19.334 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 12:52:19.351 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 12:52:19.368 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 12:52:19.369 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 12:52:19.375 [restartedMain] DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2020-11-25 12:52:19.380 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 12:52:19.382 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 12:52:19.382 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 12:52:19.393 [restartedMain] DemoApplication - Started DemoApplication in 2.823 seconds (JVM running for 3.937)
+[INFO ] 2020-11-25 12:52:19.597 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 12:52:19.603 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 12:57:03.451 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 12:57:03.459 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 12:57:03.463 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 12:57:03.497 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 12:57:06.699 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11098 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 12:57:06.706 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 12:57:06.743 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 12:57:06.747 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 12:57:07.395 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 12:57:07.417 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 12:57:07.928 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 12:57:07.951 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 12:57:07.953 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 12:57:07.954 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 12:57:08.119 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 12:57:08.128 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 12:57:08.129 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1381 ms
+[INFO ] 2020-11-25 12:57:08.271 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 12:57:08.313 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 12:57:08.356 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 12:57:08.485 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 12:57:08.577 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 12:57:08.710 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 12:57:08.731 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 12:57:08.753 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 12:57:08.977 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 12:57:09.125 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 12:57:09.142 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 12:57:09.159 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 12:57:09.160 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 12:57:09.179 [restartedMain] DispatcherServlet - Completed initialization in 19 ms
+[INFO ] 2020-11-25 12:57:09.194 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 12:57:09.197 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 12:57:09.198 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 12:57:09.208 [restartedMain] DemoApplication - Started DemoApplication in 2.806 seconds (JVM running for 4.1)
+[INFO ] 2020-11-25 12:57:09.380 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 12:57:09.387 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2020-11-25 12:57:27.228 [http-nio-8080-exec-8] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[INFO ] 2020-11-25 13:01:28.383 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:01:28.400 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:01:28.404 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 13:01:28.431 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 13:01:31.847 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11155 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 13:01:31.857 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 13:01:31.921 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 13:01:31.922 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 13:01:32.581 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 13:01:32.604 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 13:01:33.103 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 13:01:33.113 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:01:33.114 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 13:01:33.114 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 13:01:33.290 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 13:01:33.297 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 13:01:33.298 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1371 ms
+[INFO ] 2020-11-25 13:01:33.457 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:01:33.497 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 13:01:33.569 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 13:01:33.722 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 13:01:33.815 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 13:01:33.969 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 13:01:33.990 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 13:01:34.017 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 13:01:34.231 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 13:01:34.385 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 13:01:34.415 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:01:34.445 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:01:34.446 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:01:34.457 [restartedMain] DispatcherServlet - Completed initialization in 11 ms
+[INFO ] 2020-11-25 13:01:34.478 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 13:01:34.480 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 13:01:34.481 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 13:01:34.500 [restartedMain] DemoApplication - Started DemoApplication in 2.959 seconds (JVM running for 4.072)
+[INFO ] 2020-11-25 13:01:34.634 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 13:01:34.642 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2020-11-25 13:01:45.650 [http-nio-8080-exec-8] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[INFO ] 2020-11-25 13:20:30.158 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:20:30.168 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:20:30.171 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 13:20:30.190 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 13:20:34.368 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11328 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 13:20:34.374 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 13:20:34.412 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 13:20:34.413 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 13:20:35.054 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 13:20:35.077 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 13:20:35.550 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 13:20:35.582 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:20:35.584 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 13:20:35.585 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 13:20:35.806 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 13:20:35.815 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 13:20:35.816 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1403 ms
+[INFO ] 2020-11-25 13:20:35.916 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:20:35.955 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 13:20:35.995 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 13:20:36.120 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 13:20:36.199 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 13:20:36.331 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 13:20:36.352 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 13:20:36.373 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 13:20:36.564 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 13:20:36.712 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 13:20:36.729 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:20:36.752 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:20:36.752 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:20:36.758 [restartedMain] DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2020-11-25 13:20:36.763 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 13:20:36.765 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 13:20:36.766 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 13:20:36.776 [restartedMain] DemoApplication - Started DemoApplication in 2.675 seconds (JVM running for 3.881)
+[INFO ] 2020-11-25 13:20:36.950 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 13:20:36.957 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2020-11-25 13:20:46.986 [http-nio-8080-exec-2] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[INFO ] 2020-11-25 13:22:24.021 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:22:24.024 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:22:24.028 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 13:22:24.047 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 13:22:27.453 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11346 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 13:22:27.468 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 13:22:27.521 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 13:22:27.521 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 13:22:28.105 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 13:22:28.129 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 13:22:28.689 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 13:22:28.699 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:22:28.699 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 13:22:28.700 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 13:22:28.934 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 13:22:28.941 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 13:22:28.941 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1419 ms
+[INFO ] 2020-11-25 13:22:29.045 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:22:29.085 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 13:22:29.129 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 13:22:29.292 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 13:22:29.400 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 13:22:29.538 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 13:22:29.553 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 13:22:29.572 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 13:22:29.734 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 13:22:29.869 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 13:22:29.886 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:22:29.903 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:22:29.903 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:22:29.909 [restartedMain] DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2020-11-25 13:22:29.914 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 13:22:29.916 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 13:22:29.916 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 13:22:29.925 [restartedMain] DemoApplication - Started DemoApplication in 2.868 seconds (JVM running for 3.887)
+[INFO ] 2020-11-25 13:22:30.080 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 13:22:30.088 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:26:38.795 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:26:38.800 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:26:38.803 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 13:26:38.814 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 13:26:44.402 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11377 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 13:26:44.408 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 13:26:44.454 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 13:26:44.455 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 13:26:45.052 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 13:26:45.076 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 13:26:45.630 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 13:26:45.657 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:26:45.661 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 13:26:45.667 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 13:26:45.878 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 13:26:45.885 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 13:26:45.885 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1430 ms
+[INFO ] 2020-11-25 13:26:46.011 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:26:46.073 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 13:26:46.156 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 13:26:46.369 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 13:26:46.542 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 13:26:46.793 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 13:26:46.814 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 13:26:46.841 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 13:26:47.170 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 13:26:47.375 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 13:26:47.401 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:26:47.423 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:26:47.425 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:26:47.432 [restartedMain] DispatcherServlet - Completed initialization in 7 ms
+[INFO ] 2020-11-25 13:26:47.437 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 13:26:47.439 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 13:26:47.440 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 13:26:47.452 [restartedMain] DemoApplication - Started DemoApplication in 3.403 seconds (JVM running for 4.617)
+[INFO ] 2020-11-25 13:26:47.624 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 13:26:47.633 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:31:52.440 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:31:52.449 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:31:52.453 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 13:31:52.468 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 13:31:55.475 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11427 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 13:31:55.482 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 13:31:55.517 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 13:31:55.522 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 13:31:56.069 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 13:31:56.093 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 13:31:56.579 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 13:31:56.589 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:31:56.590 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 13:31:56.590 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 13:31:56.797 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 13:31:56.805 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 13:31:56.805 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1283 ms
+[INFO ] 2020-11-25 13:31:56.932 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:31:56.969 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 13:31:57.015 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 13:31:57.144 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 13:31:57.223 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 13:31:57.341 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 13:31:57.359 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 13:31:57.376 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 13:31:57.575 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 13:31:57.726 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 13:31:57.743 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:31:57.761 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:31:57.761 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:31:57.767 [restartedMain] DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2020-11-25 13:31:57.773 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 13:31:57.775 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 13:31:57.776 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 13:31:57.785 [restartedMain] DemoApplication - Started DemoApplication in 2.586 seconds (JVM running for 3.866)
+[INFO ] 2020-11-25 13:31:57.942 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 13:31:57.949 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:33:59.850 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:33:59.853 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:33:59.857 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 13:33:59.870 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 13:34:02.300 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11448 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 13:34:02.317 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 13:34:02.378 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 13:34:02.380 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 13:34:03.011 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 13:34:03.038 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 13:34:03.580 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 13:34:03.599 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:34:03.600 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 13:34:03.600 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 13:34:03.783 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 13:34:03.791 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 13:34:03.792 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1412 ms
+[INFO ] 2020-11-25 13:34:03.892 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:34:03.928 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 13:34:03.969 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 13:34:04.100 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 13:34:04.193 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 13:34:04.311 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 13:34:04.328 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 13:34:04.345 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 13:34:04.505 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 13:34:04.657 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 13:34:04.673 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:34:04.692 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:34:04.692 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:34:04.698 [restartedMain] DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2020-11-25 13:34:04.703 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 13:34:04.704 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 13:34:04.705 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 13:34:04.718 [restartedMain] DemoApplication - Started DemoApplication in 2.828 seconds (JVM running for 3.918)
+[INFO ] 2020-11-25 13:34:04.854 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 13:34:04.860 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:34:14.352 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:34:14.354 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:34:14.356 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 13:34:14.372 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 13:34:17.827 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11457 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 13:34:17.834 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 13:34:17.874 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 13:34:17.875 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 13:34:18.406 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 13:34:18.426 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 13:34:18.835 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 13:34:18.848 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:34:18.850 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 13:34:18.853 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 13:34:19.136 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 13:34:19.143 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 13:34:19.144 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1269 ms
+[INFO ] 2020-11-25 13:34:19.324 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:34:19.405 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 13:34:19.521 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 13:34:19.679 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 13:34:19.745 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 13:34:19.958 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 13:34:19.975 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 13:34:19.996 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 13:34:20.152 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 13:34:20.285 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 13:34:20.301 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:34:20.317 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:34:20.330 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:34:20.337 [restartedMain] DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2020-11-25 13:34:20.341 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 13:34:20.343 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 13:34:20.343 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 13:34:20.353 [restartedMain] DemoApplication - Started DemoApplication in 2.784 seconds (JVM running for 3.803)
+[INFO ] 2020-11-25 13:34:20.445 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 13:34:20.451 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2020-11-25 13:34:44.807 [http-nio-8080-exec-8] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[INFO ] 2020-11-25 13:35:28.223 [Thread-5] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:35:28.226 [Thread-5] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:35:28.227 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 13:35:28.240 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 13:35:28.350 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11457 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 13:35:28.351 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 13:35:28.613 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 13:35:28.616 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 13:35:28.714 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 13:35:28.715 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:35:28.715 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 13:35:28.716 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 13:35:28.768 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 13:35:28.769 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 13:35:28.771 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 415 ms
+[INFO ] 2020-11-25 13:35:28.809 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:35:28.814 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 13:35:28.820 [task-1] HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2020-11-25 13:35:28.850 [task-1] HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2020-11-25 13:35:28.851 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 13:35:28.922 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 13:35:28.954 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 13:35:28.956 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:35:28.996 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 13:35:29.006 [task-2] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 13:35:29.079 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:35:29.081 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:35:29.082 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:35:29.084 [restartedMain] DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2020-11-25 13:35:29.087 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 13:35:29.087 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 13:35:29.092 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 13:35:29.097 [restartedMain] DemoApplication - Started DemoApplication in 0.807 seconds (JVM running for 72.55)
+[INFO ] 2020-11-25 13:35:29.099 [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-11-25 13:42:05.132 [Thread-8] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:42:05.134 [Thread-8] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:42:05.134 [Thread-8] HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 2020-11-25 13:42:05.147 [Thread-8] HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 2020-11-25 13:42:05.263 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11457 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 13:42:05.264 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 13:42:05.526 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 13:42:05.529 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 13:42:05.690 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 13:42:05.691 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:42:05.692 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 13:42:05.692 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 13:42:05.742 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 13:42:05.744 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 13:42:05.747 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 479 ms
+[INFO ] 2020-11-25 13:42:05.821 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:42:05.832 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 13:42:05.847 [task-1] HikariDataSource - HikariPool-3 - Starting...
+[INFO ] 2020-11-25 13:42:05.884 [task-1] HikariDataSource - HikariPool-3 - Start completed.
+[INFO ] 2020-11-25 13:42:05.885 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 13:42:05.976 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 13:42:06.042 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 13:42:06.046 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:42:06.115 [task-2] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 13:42:06.158 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 13:42:06.294 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:42:06.298 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:42:06.298 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:42:06.302 [restartedMain] DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2020-11-25 13:42:06.305 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 13:42:06.306 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 13:42:06.310 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 13:42:06.315 [restartedMain] DemoApplication - Started DemoApplication in 1.117 seconds (JVM running for 469.784)
+[INFO ] 2020-11-25 13:42:06.318 [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-11-25 13:42:47.633 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:42:47.636 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:42:47.636 [SpringContextShutdownHook] HikariDataSource - HikariPool-3 - Shutdown initiated...
+[INFO ] 2020-11-25 13:42:47.649 [SpringContextShutdownHook] HikariDataSource - HikariPool-3 - Shutdown completed.
+[INFO ] 2020-11-25 13:42:49.946 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11538 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 13:42:49.956 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 13:42:49.989 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 13:42:49.989 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 13:42:50.478 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 13:42:50.497 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 13:42:50.907 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 13:42:50.915 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:42:50.916 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 13:42:50.917 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 13:42:51.100 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 13:42:51.105 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 13:42:51.106 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1117 ms
+[INFO ] 2020-11-25 13:42:51.204 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:42:51.236 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 13:42:51.274 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 13:42:51.376 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 13:42:51.448 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 13:42:51.581 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 13:42:51.597 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 13:42:51.616 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 13:42:51.768 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 13:42:51.892 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 13:42:51.908 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:42:51.925 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:42:51.926 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:42:51.931 [restartedMain] DispatcherServlet - Completed initialization in 5 ms
+[INFO ] 2020-11-25 13:42:51.936 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 13:42:51.938 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 13:42:51.938 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 13:42:51.947 [restartedMain] DemoApplication - Started DemoApplication in 2.259 seconds (JVM running for 3.202)
+[INFO ] 2020-11-25 13:42:52.085 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 13:42:52.091 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:43:14.182 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:43:14.184 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:43:14.187 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 13:43:14.204 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 13:43:16.622 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11554 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 13:43:16.629 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 13:43:16.664 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 13:43:16.669 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 13:43:17.243 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 13:43:17.265 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 13:43:17.711 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 13:43:17.720 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:43:17.721 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 13:43:17.722 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 13:43:17.918 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 13:43:17.925 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 13:43:17.925 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1256 ms
+[INFO ] 2020-11-25 13:43:18.026 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:43:18.059 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 13:43:18.097 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 13:43:18.205 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 13:43:18.283 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 13:43:18.452 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 13:43:18.473 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 13:43:18.494 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 13:43:18.780 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 13:43:18.939 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 13:43:18.955 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:43:18.974 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:43:18.974 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:43:18.980 [restartedMain] DispatcherServlet - Completed initialization in 5 ms
+[INFO ] 2020-11-25 13:43:18.987 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 13:43:18.989 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 13:43:18.989 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 13:43:19.002 [restartedMain] DemoApplication - Started DemoApplication in 2.651 seconds (JVM running for 3.721)
+[INFO ] 2020-11-25 13:43:19.131 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 13:43:19.137 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2020-11-25 13:43:28.993 [http-nio-8080-exec-4] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[INFO ] 2020-11-25 13:45:20.036 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:45:20.042 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:45:20.046 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 13:45:20.058 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 13:45:23.142 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11586 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 13:45:23.149 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 13:45:23.183 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 13:45:23.183 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 13:45:23.726 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 13:45:23.748 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 13:45:24.190 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 13:45:24.198 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:45:24.199 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 13:45:24.199 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 13:45:24.363 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 13:45:24.368 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 13:45:24.369 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1182 ms
+[INFO ] 2020-11-25 13:45:24.470 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:45:24.502 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 13:45:24.535 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 13:45:24.641 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 13:45:24.728 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 13:45:24.878 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 13:45:24.894 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 13:45:24.917 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 13:45:25.102 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 13:45:25.239 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 13:45:25.254 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:45:25.270 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:45:25.270 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:45:25.276 [restartedMain] DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2020-11-25 13:45:25.280 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 13:45:25.282 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 13:45:25.282 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 13:45:25.292 [restartedMain] DemoApplication - Started DemoApplication in 2.451 seconds (JVM running for 3.654)
+[INFO ] 2020-11-25 13:45:25.449 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 13:45:25.454 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2020-11-25 13:45:28.816 [http-nio-8080-exec-8] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[WARN ] 2020-11-25 13:45:34.221 [http-nio-8080-exec-9] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[WARN ] 2020-11-25 13:46:31.147 [http-nio-8080-exec-8] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[INFO ] 2020-11-25 13:46:35.767 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:46:35.772 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:46:35.774 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 13:46:35.799 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 13:46:38.459 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11607 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 13:46:38.468 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 13:46:38.508 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 13:46:38.508 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 13:46:39.064 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 13:46:39.095 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 13:46:40.006 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 13:46:40.017 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:46:40.018 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 13:46:40.018 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 13:46:40.326 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 13:46:40.332 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 13:46:40.334 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1820 ms
+[INFO ] 2020-11-25 13:46:40.435 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:46:40.483 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 13:46:40.524 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 13:46:40.657 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 13:46:40.762 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 13:46:40.891 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 13:46:40.907 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 13:46:40.923 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 13:46:41.083 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 13:46:41.244 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 13:46:41.262 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:46:41.280 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:46:41.280 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:46:41.286 [restartedMain] DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2020-11-25 13:46:41.291 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 13:46:41.293 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 13:46:41.294 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 13:46:41.305 [restartedMain] DemoApplication - Started DemoApplication in 3.2 seconds (JVM running for 4.419)
+[INFO ] 2020-11-25 13:46:41.435 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 13:46:41.440 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2020-11-25 13:46:57.033 [http-nio-8080-exec-3] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[WARN ] 2020-11-25 13:52:08.998 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=27s990ms), soft-evicting connections from pool.
+[WARN ] 2020-11-25 13:57:05.707 [http-nio-8080-exec-8] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[INFO ] 2020-11-25 13:57:28.444 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:57:28.451 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:57:28.453 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 13:57:28.467 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 13:57:30.758 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11730 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 13:57:30.764 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 13:57:30.803 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 13:57:30.804 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 13:57:31.497 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 13:57:31.589 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 13:57:32.126 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 13:57:32.134 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:57:32.135 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 13:57:32.135 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 13:57:32.360 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 13:57:32.368 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 13:57:32.371 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1563 ms
+[INFO ] 2020-11-25 13:57:32.505 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:57:32.547 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 13:57:32.640 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 13:57:32.832 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 13:57:32.920 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 13:57:33.080 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 13:57:33.098 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 13:57:33.117 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 13:57:33.261 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 13:57:33.415 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 13:57:33.430 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:57:33.445 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:57:33.445 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:57:33.451 [restartedMain] DispatcherServlet - Completed initialization in 5 ms
+[INFO ] 2020-11-25 13:57:33.455 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 13:57:33.457 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 13:57:33.457 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 13:57:33.467 [restartedMain] DemoApplication - Started DemoApplication in 2.97 seconds (JVM running for 3.977)
+[INFO ] 2020-11-25 13:57:33.613 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 13:57:33.619 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:59:10.640 [Thread-5] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:59:10.643 [Thread-5] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:59:10.646 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 13:59:10.665 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 13:59:10.805 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11730 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 13:59:10.805 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 13:59:11.025 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 13:59:11.028 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 13:59:11.118 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 13:59:11.119 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:59:11.120 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 13:59:11.120 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 13:59:11.166 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 13:59:11.167 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 13:59:11.168 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 357 ms
+[INFO ] 2020-11-25 13:59:11.202 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:59:11.207 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 13:59:11.212 [task-1] HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2020-11-25 13:59:11.234 [task-1] HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2020-11-25 13:59:11.234 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 13:59:11.276 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 13:59:11.323 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 13:59:11.326 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:59:11.350 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 13:59:11.359 [task-2] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 13:59:11.404 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:59:11.406 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:59:11.407 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:59:11.408 [restartedMain] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2020-11-25 13:59:11.409 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 13:59:11.410 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 13:59:11.411 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 13:59:11.414 [restartedMain] DemoApplication - Started DemoApplication in 0.664 seconds (JVM running for 101.928)
+[INFO ] 2020-11-25 13:59:11.416 [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-11-25 13:59:27.982 [Thread-8] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:59:27.983 [Thread-8] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:59:27.983 [Thread-8] HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 2020-11-25 13:59:27.994 [Thread-8] HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 2020-11-25 13:59:28.071 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11730 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 13:59:28.072 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 13:59:28.209 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 13:59:28.213 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 13:59:28.339 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 13:59:28.340 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:59:28.341 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 13:59:28.341 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 13:59:28.383 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 13:59:28.384 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 13:59:28.388 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 313 ms
+[INFO ] 2020-11-25 13:59:28.428 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 13:59:28.434 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 13:59:28.443 [task-1] HikariDataSource - HikariPool-3 - Starting...
+[INFO ] 2020-11-25 13:59:28.467 [task-1] HikariDataSource - HikariPool-3 - Start completed.
+[INFO ] 2020-11-25 13:59:28.468 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 13:59:28.510 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 13:59:28.531 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 13:59:28.533 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 13:59:28.567 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 13:59:28.575 [task-2] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 13:59:28.629 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 13:59:28.631 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:59:28.631 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 13:59:28.634 [restartedMain] DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2020-11-25 13:59:28.636 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 13:59:28.637 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 13:59:28.638 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 13:59:28.641 [restartedMain] DemoApplication - Started DemoApplication in 0.601 seconds (JVM running for 119.156)
+[INFO ] 2020-11-25 13:59:28.643 [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-11-25 14:00:28.495 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 14:00:28.499 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 14:00:28.500 [SpringContextShutdownHook] HikariDataSource - HikariPool-3 - Shutdown initiated...
+[INFO ] 2020-11-25 14:00:28.514 [SpringContextShutdownHook] HikariDataSource - HikariPool-3 - Shutdown completed.
+[INFO ] 2020-11-25 14:00:31.005 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11792 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 14:00:31.015 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 14:00:31.048 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 14:00:31.048 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 14:00:31.547 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 14:00:31.566 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 14:00:32.012 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 14:00:32.022 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 14:00:32.022 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 14:00:32.023 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 14:00:32.208 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 14:00:32.214 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 14:00:32.214 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1166 ms
+[INFO ] 2020-11-25 14:00:32.326 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 14:00:32.356 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 14:00:32.395 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 14:00:32.503 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 14:00:32.599 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 14:00:32.737 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 14:00:32.755 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 14:00:32.776 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 14:00:32.949 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 14:00:33.102 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 14:00:33.128 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 14:00:33.155 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 14:00:33.156 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 14:00:33.163 [restartedMain] DispatcherServlet - Completed initialization in 7 ms
+[INFO ] 2020-11-25 14:00:33.169 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 14:00:33.172 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 14:00:33.174 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 14:00:33.188 [restartedMain] DemoApplication - Started DemoApplication in 2.442 seconds (JVM running for 3.516)
+[INFO ] 2020-11-25 14:00:33.380 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 14:00:33.397 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 14:00:59.063 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 14:00:59.064 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 14:00:59.066 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 14:00:59.075 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 14:01:05.007 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11818 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 14:01:05.015 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 14:01:05.046 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 14:01:05.050 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 14:01:05.534 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 14:01:05.551 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 14:01:05.988 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 14:01:06.002 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 14:01:06.003 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 14:01:06.005 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 14:01:06.202 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 14:01:06.208 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 14:01:06.208 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1158 ms
+[INFO ] 2020-11-25 14:01:06.290 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 14:01:06.324 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 14:01:06.370 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 14:01:06.537 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 14:01:06.619 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 14:01:06.759 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 14:01:06.776 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 14:01:06.795 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 14:01:06.952 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 14:01:07.125 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 14:01:07.140 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 14:01:07.168 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 14:01:07.169 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 14:01:07.173 [restartedMain] DispatcherServlet - Completed initialization in 4 ms
+[INFO ] 2020-11-25 14:01:07.183 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 14:01:07.186 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 14:01:07.187 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 14:01:07.203 [restartedMain] DemoApplication - Started DemoApplication in 2.425 seconds (JVM running for 3.63)
+[INFO ] 2020-11-25 14:01:07.312 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 14:01:07.321 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 14:03:00.416 [Thread-5] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 14:03:00.418 [Thread-5] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 14:03:00.422 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 14:03:00.442 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 14:03:00.618 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 11818 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 14:03:00.619 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 14:03:00.946 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 14:03:00.949 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 14:03:01.069 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 14:03:01.071 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 14:03:01.072 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 14:03:01.073 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 14:03:01.122 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 14:03:01.123 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 14:03:01.123 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 498 ms
+[INFO ] 2020-11-25 14:03:01.166 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 14:03:01.172 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 14:03:01.183 [task-1] HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2020-11-25 14:03:01.209 [task-1] HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2020-11-25 14:03:01.210 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 14:03:01.278 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 14:03:01.317 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 14:03:01.317 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 14:03:01.363 [task-2] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 14:03:01.366 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 14:03:01.497 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 14:03:01.501 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 14:03:01.501 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 14:03:01.504 [restartedMain] DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2020-11-25 14:03:01.506 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 14:03:01.507 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 14:03:01.508 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 14:03:01.513 [restartedMain] DemoApplication - Started DemoApplication in 0.994 seconds (JVM running for 117.945)
+[INFO ] 2020-11-25 14:03:01.517 [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-11-25 14:06:20.018 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 14:06:20.019 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 14:06:20.020 [SpringContextShutdownHook] HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 2020-11-25 14:06:20.031 [SpringContextShutdownHook] HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 2020-11-25 14:12:38.834 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 12857 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 14:12:38.842 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 14:12:38.886 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 14:12:38.891 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 14:12:39.476 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 14:12:39.499 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 14:12:39.994 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 14:12:40.002 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 14:12:40.003 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 14:12:40.004 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 14:12:40.216 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 14:12:40.224 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 14:12:40.224 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1332 ms
+[INFO ] 2020-11-25 14:12:40.333 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 14:12:40.372 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 14:12:40.432 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 14:12:40.586 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 14:12:40.688 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 14:12:40.774 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 14:12:40.796 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 14:12:40.815 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 14:12:41.004 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 14:12:41.160 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 14:12:41.176 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 14:12:41.193 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 14:12:41.193 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 14:12:41.199 [restartedMain] DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2020-11-25 14:12:41.206 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 14:12:41.208 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 14:12:41.209 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 14:12:41.218 [restartedMain] DemoApplication - Started DemoApplication in 2.691 seconds (JVM running for 3.802)
+[INFO ] 2020-11-25 14:12:41.398 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 14:12:41.405 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 14:13:11.328 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 14:13:11.331 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 14:13:11.334 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 14:13:11.343 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-25 15:10:23.539 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 13410 (/Users/uhan/Desktop/Project/covidProject19/covidPotal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPotal19)
+[INFO ] 2020-11-25 15:10:23.552 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-25 15:10:23.607 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-25 15:10:23.609 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-25 15:10:24.376 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-25 15:10:24.409 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 JPA repository interfaces.
+[INFO ] 2020-11-25 15:10:25.024 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-25 15:10:25.038 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 15:10:25.039 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-25 15:10:25.040 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-11-25 15:10:25.367 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-11-25 15:10:25.375 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-25 15:10:25.376 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1766 ms
+[INFO ] 2020-11-25 15:10:25.503 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 15:10:25.552 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-25 15:10:25.639 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-11-25 15:10:25.841 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-11-25 15:10:25.978 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-25 15:10:26.114 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-25 15:10:26.145 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-11-25 15:10:26.170 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-25 15:10:26.411 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-11-25 15:10:26.661 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-25 15:10:26.683 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-25 15:10:26.704 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-25 15:10:26.705 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-25 15:10:26.710 [restartedMain] DispatcherServlet - Completed initialization in 5 ms
+[INFO ] 2020-11-25 15:10:26.718 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-25 15:10:26.720 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-25 15:10:26.721 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-25 15:10:26.735 [restartedMain] DemoApplication - Started DemoApplication in 3.59 seconds (JVM running for 5.667)
+[INFO ] 2020-11-25 15:10:27.067 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-25 15:10:27.079 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 15:15:15.782 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-25 15:15:15.785 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-25 15:15:15.787 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-25 15:15:15.797 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.

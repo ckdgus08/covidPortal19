@@ -25,7 +25,7 @@
     </div>
 </header>
 <div class="join_container"><h2>회원가입</h2>
-    <form method="post" action="join_Action">
+    <form method="post" action="joinAction">
         <h3>아이디</h3>
         <div class="joinID"><input type="text" class="input" style="ime-mode:disabled;" placeholder="아이디" name="user_id"
                                    title="아이디" maxlength="20"></div>
