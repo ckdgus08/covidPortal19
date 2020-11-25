@@ -2,6 +2,9 @@ package com.covidPotar19.Member;
 
 import org.springframework.stereotype.Repository;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;

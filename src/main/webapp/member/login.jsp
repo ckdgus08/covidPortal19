@@ -23,7 +23,7 @@
     </div>
 </header>
 <div class="login_containers"><h2> 로그인 </h2>
-    <form method="post" action="login_Action"><h3>아이디</h3>
+    <form method="post" action="loginAction"><h3>아이디</h3>
         <div class="loginID"><label>
             <input type="text" class="input" placeholder="아이디" name="user_id" maxlength="20">
         </label></div>

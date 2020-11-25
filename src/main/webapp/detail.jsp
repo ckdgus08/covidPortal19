@@ -1,13 +1,10 @@
 <%@ page import="com.covidPotar19.domain.Detail" %>
 <%@ page import="java.util.List" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-
 <html>
 
 <%
-
 	List<Detail> result = (List) request.getAttribute("result");
-
 %>
 
 <head>
@@ -29,7 +26,7 @@
 </head>
 
 <body>
-
+<%@ include file="/member/memberSessionCheck.jsp" %>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<a class="navbar-brand" href="index.jsp">Logo</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"

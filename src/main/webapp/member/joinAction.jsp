@@ -5,7 +5,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title> 회원가입 </title></head>
+    <title>코로나19(covid19) 종합 포털 사이트</title></head>
 <body><% String user_id = request.getParameter("user_id");
     String user_password = request.getParameter("user_password");
     String user_name = request.getParameter("user_name");

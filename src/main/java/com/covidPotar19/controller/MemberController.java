@@ -20,16 +20,22 @@ public class MemberController
         return "member/login";
     }
 
-    @PostMapping("/member/join_Action")
+    @PostMapping("/member/joinAction")
     public String joinAction()
     {
-        return "member/join_Action";
+        return "member/joinAction";
     }
 
-    @PostMapping("/member/login_Action")
+    @PostMapping("/member/loginAction")
     public String loginAction()
     {
-        return "member/login_Action";
+        return "member/loginAction";
+    }
+
+    @PostMapping("/member/logoutAction")
+    public String logoutAction()
+    {
+        return "member/logoutAction.jsp";
     }
 
     @RequestMapping(value = "/index")
