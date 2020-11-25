@@ -1,8 +1,8 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page import="com.covidPotar19.domain.Detail" %>
 <%@ page import="java.util.List" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <html>
-
 <%
 	List<Detail> result = (List) request.getAttribute("result");
 %>
@@ -25,7 +25,7 @@
 	<title>코로나19(covid19) 종합 포털 사이트</title>
 </head>
 
-<body>
+<input>
 <%@ include file="/member/memberSessionCheck.jsp" %>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<a class="navbar-brand" href="index.jsp">Logo</a>
@@ -50,55 +50,115 @@
 	</div>
 </nav>
 
-<table border="1px solid black" style="text-align: center">
-	<thead>
-	<tr>
-		<td>날짜</td>
-		<td>총 확진자 수</td>
-		<td>격리해제 수</td>
-		<td>검사진행 수</td>
-		<td>사망자 수</td>
-		<td>치료중 환자 수</td>
-		<td>결과 음성 수</td>
-		<td>누적검사 수</td>
-		<td>누적 확진률</td>
-	</tr>
-	</thead>
-	<tbody>
-	<% for (Detail d : result) {
-	%>
-	<tr>
-		<td><%= d.getStateDt()%></td>
-		<td><%= d.getDecideCnt()%></td>
-		<td><%= d.getClearCnt()%></td>
-		<td><%= d.getExamCnt()%></td>
-		<td><%= d.getDeathCnt()%></td>
-		<td><%= d.getCareCnt()%></td>
-		<td><%= d.getResutlNegCnt()%></td>
-		<td><%= d.getAccExamCnt()%></td>
-		<td><%= d.getAccDefRate()%></td>
+<div class="container">
 
-	</tr>
-	<%
-		}
-	%>
-	</tbody>
+	<div class="jumbotron" style="margin-top: 20px;">
 
-</table>
+		<div style="margin: auto; text-align: center;">
+			<h4>조회 할 기간을 선택하세요. ( 기간 길게 잡으면 오래 걸릴 수 있습니다.)</h4>
+			<form action="detail" method="post">
+				<select name="startYear">
+					<option value="2020" selected>2020년</option>
+				</select>
+				<select name="startMonth">
+					<option value="01" selected>1</option>
+					<% for (int i = 2; i <= 12; i++) {
+					%>
+					<option value=<%=String.format("%02d", i)%>><%=i%>
+					</option>
+					<%
+						}
+					%>
+				</select>
+				<select name="startDay">
+					<option value="01" selected>1</option>
 
-<%--
-result.setStateTime(getTagValue("stateTime", eElement));
-                    result.setDecideCnt(getTagValue("decideCnt", eElement));
-                    result.setClearCnt(getTagValue("clearCnt", eElement));
-                    result.setExamCnt(getTagValue("examCnt", eElement));
-                    result.setDeathCnt(getTagValue("deathCnt", eElement));
-                    result.setCareCnt(getTagValue("careCnt", eElement));
-                    result.setResutlNegCnt(getTagValue("resutlNegCnt", eElement));
-                    result.setAccExamCnt(getTagValue("accExamCnt", eElement));
-                    result.setAccExamCompCnt(getTagValue("accExamCompCnt", eElement));
-                    result.setAccDefRate(getTagValue("accDefRate", eElement));
-                    result.setCreateDt(getTagValue("createDt", eElement));
-                    result.setUpdateDt(getTagValue("updateDt", eElement));--%>
+					<% for (int i = 2; i <= 31; i++) {
+					%>
+					<option value=<%=String.format("%02d", i)%>><%=i%>
+					</option>
+					<%
+						}
+					%>
+				</select>
 
+				~
+
+				<select name="endYear">
+					<option value="2020" selected>2020년</option>
+				</select>
+				<select name="endMonth">
+					<option value="01" selected>1</option>
+					<% for (int i = 2; i <= 12; i++) {
+					%>
+					<option value=<%=String.format("%02d", i)%>><%=i%>
+					</option>
+					<%
+						}
+					%>
+				</select>
+				<select name="endDay">
+					<option value="01" selected>1</option>
+
+					<% for (int i = 2; i <= 31; i++) {
+					%>
+					<option value=<%=String.format("%02d", i)%>><%=i%>
+					</option>
+					<%
+						}
+					%>
+				</select>
+				<div>
+					<input type="submit">
+				</div>
+			</form>
+
+			<table border="1px solid black" style="text-align: center; margin: auto; width: 80%">
+				<thead style="background-color: darkgrey;">
+				<tr>
+					<td>날짜</td>
+					<td>총 확진자 수</td>
+					<td>격리해제 수</td>
+					<td>검사진행 수</td>
+					<td>사망자 수</td>
+					<td>치료중 환자 수</td>
+					<td>결과 음성 수</td>
+					<td>누적검사 수</td>
+					<td>누적 확진률</td>
+				</tr>
+				</thead>
+				<tbody>
+				<% for (Detail d : result) {
+				%>
+				<tr>
+					<td><%= d.getStateDt()%>
+					</td>
+					<td><%= d.getDecideCnt()%>
+					</td>
+					<td><%= d.getClearCnt()%>
+					</td>
+					<td><%= d.getExamCnt()%>
+					</td>
+					<td><%= d.getDeathCnt()%>
+					</td>
+					<td><%= d.getCareCnt()%>
+					</td>
+					<td><%= d.getResutlNegCnt()%>
+					</td>
+					<td><%= d.getAccExamCnt()%>
+					</td>
+					<td><%= d.getAccDefRate()%>
+					</td>
+
+				</tr>
+				<%
+					}
+				%>
+				</tbody>
+
+			</table>
+		</div>
+	</div>
+</div>
 </body>
 </html>
