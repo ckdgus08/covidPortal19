@@ -70,7 +70,7 @@ public class DetailService {
         String SERVICE_KEY = "Y%2Fp5JLBmrkILvFkISB3Yp282tJ9n4Syw7T6U7rK5JjokV53hvlumKQOVZW%2FK9tGdJtL4HUW6IB1%2Bmr59et%2B9sQ%3D%3D";
 
         int pageNo = 1;
-        int numOfRows = 100;
+        int numOfRows = 999;
         List<Detail> list = new ArrayList<>();
 
         try {
