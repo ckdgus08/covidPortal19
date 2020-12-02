@@ -41,6 +41,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="googleMap.jsp">map</a>
             </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="bbs">게시판</a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="detail">detail</a>
             </li>

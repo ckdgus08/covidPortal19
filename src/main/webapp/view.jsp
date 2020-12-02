@@ -32,11 +32,14 @@
 			<li class="nav-item">
 				<a class="nav-link" href="googleMap.jsp">map</a>
 			</li>
-			<li class="nav-item active">
+			<li class="nav-item">
 				<a class="nav-link" href="detail">detail</a>
 			</li>
 			<li class="nav-item active">
 				<a class="nav-link" href="bbs">게시판</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/member/logoutAction.jsp">로그아웃</a>
 			</li>
 		</ul>
 		<form class="form-inline my-2 my-lg-0">
