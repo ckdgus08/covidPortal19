@@ -48,6 +48,7 @@ public class DetailService {
 
         for (int i = start; i <= end; i++) {
 
+
             Detail detailFromStateDt = detailRepository.getDetailFromStateDt(i);
             if (detailFromStateDt != null) {
                 result.add(detailFromStateDt);
@@ -57,6 +58,7 @@ public class DetailService {
                     detailRepository.saveDetail(d);
                     result.add(d);
                 }
+                return result;
             }
 
         }
@@ -67,10 +69,11 @@ public class DetailService {
     public List<Detail> getJsonData(int startCreateDt, int end) {
 
         BufferedReader br = null;
-        String SERVICE_KEY = "Y%2Fp5JLBmrkILvFkISB3Yp282tJ9n4Syw7T6U7rK5JjokV53hvlumKQOVZW%2FK9tGdJtL4HUW6IB1%2Bmr59et%2B9sQ%3D%3D";
+        String SERVICE_KEY = "OaY9khv9WTK0x96WqjSs260MzhdYxPKlJS0rYrOEDIYZBkKyprEgM0JzEcm5mQorMI7n%2BInSVIsQSQ3DxPDxOQ%3D%3D";
+//        String SERVICE_KEY = "xKzn86%2FQvwa1b%2FvD5bQDzMN8SdVg5wj21glqBrTC7ahEwhbAfzTaosdpLIsvwOgGT2lx1dMfykoVamxeM6f8uQ%3D%3D";
 
         int pageNo = 1;
-        int numOfRows = 999;
+        int numOfRows = 50;
         List<Detail> list = new ArrayList<>();
 
         try {
@@ -93,6 +96,9 @@ public class DetailService {
 //                result = result + line;
 //            }
 //
+
+            logger.info(urlstr);
+
 
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();

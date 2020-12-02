@@ -71,4 +71,9 @@
 
 
 </body>
+
+<footer>
+    <jsp:include page="inner/footer.jsp"/>
+</footer>
+
 </html>

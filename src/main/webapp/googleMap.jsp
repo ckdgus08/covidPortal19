@@ -51,6 +51,12 @@
 			<li class="nav-item">
 				<a class="nav-link" href="detail">detail</a>
 			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="bbs">게시판</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/member/logoutAction.jsp">로그아웃</a>
+			</li>
 		</ul>
 		<form class="form-inline my-2 my-lg-0">
 			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -62,4 +68,9 @@
 
 
 </body>
+
+<footer>
+	<jsp:include page="inner/footer.jsp"/>
+</footer>
+
 </html>

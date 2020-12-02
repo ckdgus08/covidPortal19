@@ -20,7 +20,7 @@ import java.util.List;
 public class DetailController extends HttpServlet {
 
     private final DetailService detailService;
-    Logger logger = LoggerFactory.getLogger(GoogleMapServlet.class);
+    Logger logger = LoggerFactory.getLogger(DetailController.class);
 
 
     public DetailController(DetailService detailService) {
@@ -32,7 +32,27 @@ public class DetailController extends HttpServlet {
                          @RequestParam(value = "end", required = false, defaultValue = "0") int end, Model model, HttpServletResponse response, HttpServletRequest request) {
 
         LocalDateTime localDateTime = LocalDateTime.now();
-        String today = (String.valueOf(localDateTime.getYear()) + localDateTime.getMonthValue() + localDateTime.getDayOfMonth());
+        String today = (String.valueOf(localDateTime.getYear()));
+
+        if(String.valueOf(localDateTime.getMonthValue()).length() == 1) {
+
+            today += "0" + localDateTime.getMonthValue();
+
+        } else {
+            today += String.valueOf(localDateTime.getMonthValue());
+        }
+
+        if(String.valueOf(localDateTime.getDayOfMonth()).length() == 1) {
+
+            today += "0" + localDateTime.getDayOfMonth();
+
+        } else {
+            today += String.valueOf(localDateTime.getDayOfMonth());
+        }
+
+
+
+
 
         int startDay;
         int endDay;
@@ -40,7 +60,7 @@ public class DetailController extends HttpServlet {
         if (start != 0) {
             startDay = start;
         } else {
-            startDay = Integer.parseInt(today) - 7;
+            startDay = Integer.parseInt(today);
         }
 
         if (end != 0) {
@@ -49,11 +69,9 @@ public class DetailController extends HttpServlet {
             endDay = Integer.parseInt(today);
         }
 
-
         List<Detail> result = detailService.getDetail(startDay, endDay);
 
         request.setAttribute("result", result);
-
 
         return "detail";
     }
@@ -70,9 +88,6 @@ public class DetailController extends HttpServlet {
 
         String start = startYear + startMonth + startDay;
         String end = endYear + endMonth + endDay;
-
-        logger.info("start = " + start);
-        logger.info("end = " + end);
 
         List<Detail> result = detailService.getDetail(Integer.parseInt(start), Integer.parseInt(end));
 

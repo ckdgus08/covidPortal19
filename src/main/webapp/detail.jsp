@@ -24,8 +24,6 @@
 
 	<title>코로나19(covid19) 종합 포털 사이트</title>
 </head>
-
-<input>
 <%@ include file="/member/memberSessionCheck.jsp" %>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<a class="navbar-brand" href="index.jsp">Logo</a>
@@ -41,6 +39,12 @@
 			</li>
 			<li class="nav-item active">
 				<a class="nav-link" href="detail">detail</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="bbs">게시판</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/member/logoutAction.jsp">로그아웃</a>
 			</li>
 		</ul>
 		<form class="form-inline my-2 my-lg-0">
@@ -161,4 +165,9 @@
 	</div>
 </div>
 </body>
+
+<footer>
+	<jsp:include page="inner/footer.jsp"/>
+</footer>
+
 </html>
