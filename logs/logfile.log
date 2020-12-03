@@ -1077,3 +1077,79 @@ java.lang.IllegalStateException: api 통신 실패!
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.38.jar:9.0.38]
 	at java.lang.Thread.run(Thread.java:834) [?:?]
+[INFO ] 2020-12-03 17:37:28.285 [restartedMain] DemoApplication - Starting DemoApplication on uHanui-MacBookPro.local with PID 77510 (/Users/uhan/Desktop/Project/covidProject19/covidPortal19/build/classes/java/main started by uhan in /Users/uhan/Desktop/Project/covidProject19/covidPortal19)
+[INFO ] 2020-12-03 17:37:28.294 [restartedMain] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-12-03 17:37:28.350 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-12-03 17:37:28.351 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-12-03 17:37:28.976 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-12-03 17:37:29.043 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-12-03 17:37:29.559 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-12-03 17:37:29.569 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-12-03 17:37:29.570 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-12-03 17:37:29.570 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[INFO ] 2020-12-03 17:37:29.805 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2020-12-03 17:37:29.813 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-12-03 17:37:29.815 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1459 ms
+[INFO ] 2020-12-03 17:37:29.923 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-12-03 17:37:29.964 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-12-03 17:37:30.144 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+[INFO ] 2020-12-03 17:37:30.325 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-12-03 17:37:30.434 [task-1] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-12-03 17:37:30.667 [task-1] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-12-03 17:37:30.693 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[WARN ] 2020-12-03 17:37:30.732 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-12-03 17:37:30.935 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-12-03 17:37:31.121 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-12-03 17:37:31.148 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-12-03 17:37:31.178 [restartedMain] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-12-03 17:37:31.178 [restartedMain] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-12-03 17:37:31.185 [restartedMain] DispatcherServlet - Completed initialization in 7 ms
+[INFO ] 2020-12-03 17:37:31.191 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-12-03 17:37:31.193 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[WARN ] 2020-12-03 17:37:31.469 [task-1] ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table bbs_comment 
+       drop 
+       foreign key FKsnd3ucyn1vcxghr0oknw3cl8s" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table bbs_comment 
+       drop 
+       foreign key FKsnd3ucyn1vcxghr0oknw3cl8s" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:316) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:469) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391) ~[spring-orm-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.sql.SQLSyntaxErrorException: Table 'demo_test.bbs_comment' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:764) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648) ~[mysql-connector-java-8.0.21.jar:8.0.21]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.4.5.jar:?]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.4.21.Final.jar:5.4.21.Final]
+	... 19 more
+[INFO ] 2020-12-03 17:37:31.562 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-12-03 17:37:31.570 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-12-03 17:37:31.855 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-12-03 17:37:31.867 [restartedMain] DemoApplication - Started DemoApplication in 4.142 seconds (JVM running for 6.099)
+[INFO ] 2020-12-03 17:38:16.851 [http-nio-8080-exec-10] DetailService - http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19InfStateJson?serviceKey=OaY9khv9WTK0x96WqjSs260MzhdYxPKlJS0rYrOEDIYZBkKyprEgM0JzEcm5mQorMI7n%2BInSVIsQSQ3DxPDxOQ%3D%3D&pageNo=1&numOfRows=50&startCreateDt=20201203&endCreateDt=20201203
+[INFO ] 2020-12-03 17:38:34.281 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-12-03 17:38:34.284 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-12-03 17:38:34.287 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-12-03 17:38:34.299 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.

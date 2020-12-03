@@ -1,0 +1,24 @@
+.pagination > li > a,
+.pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-top: -20px;
+    line-height: 1.42857143;
+    color: black;
+    text-decoration: none;
+    background-color: #eeeeee;
+    border: 1px solid #ddd;
+}
+
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+    color: black;
+    cursor: not-allowed;
+    background-color: #eeeeee;
+    border-color: #ddd;
+}
