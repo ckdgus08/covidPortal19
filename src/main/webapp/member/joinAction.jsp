@@ -9,7 +9,12 @@
 <body><% String user_id = request.getParameter("user_id");
     String user_password = request.getParameter("user_password");
     String user_name = request.getParameter("user_name");
-    // -1: 서버 오류 / 0: 이미존재하는 아이디 / 1: 성공
+
+    /**
+     * 서버 오류 : -1
+     * 이미 존재하는 아이디 : 0
+     * 성공 : 1
+     */
     if (user_id == null || user_password == null || user_name == null)
     {
         PrintWriter script = response.getWriter();

@@ -32,7 +32,13 @@ public class MemberDAO
         }
     }
 
-    // 로그인 /* * -2: 아이디없음 * -1: 서버오류 * 0: 비밀번호 틀림 * 1: 성공 */
+    /**
+     * 로그인
+     * 아이디 없음 : -2
+     * 서버오류 : -1
+     * 비밀번호 틀림 : 0
+     * 성공 : 1
+     */
     public int login(String user_id, String user_password)
     {
         try
@@ -54,7 +60,9 @@ public class MemberDAO
         }
     }
 
-    // 중복여부 확인
+    /**
+     * 중복여부 확인
+     */
     public boolean ID_Check(String user_id)
     {
         try
@@ -70,7 +78,12 @@ public class MemberDAO
         return false;
     }
 
-    // 회원가입 /* * -1: 서버오류 * 0: 이미 존재하는 아이디 * 1: 성공 */
+    /**
+     * 회원가입
+     * 서버오류 : -1
+     * 이미 존재하는 아아디 : 0
+     * 성공 : 1
+     */
     public int join(MemberDAO memberDAO)
     {
         if (!ID_Check(memberDAO.getUser_id()))
@@ -82,8 +95,8 @@ public class MemberDAO
         {
             PreparedStatement pst = con.prepareStatement("INSERT INTO member VALUES (?,?,?)");
             pst.setString(1, memberDAO.getUser_id());
-            pst.setString(2, memberDAO.getUser_password());
-            pst.setString(3, memberDAO.getUser_name());
+            pst.setString(2, memberDAO.getUser_name());
+            pst.setString(3, memberDAO.getUser_password());
             return pst.executeUpdate();
         } catch (Exception e)
         {
@@ -92,7 +105,9 @@ public class MemberDAO
         }
     }
 
-    // 유저 데이터 가져오기
+    /**
+     * 유저 데이터 가져오기
+     */
     public MemberDAO getUser(String user_id)
     {
         try
