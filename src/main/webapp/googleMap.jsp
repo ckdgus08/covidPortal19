@@ -1,4 +1,4 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"  errorPage="error.jsp"%>
 <html>
 
 <head>
@@ -46,7 +46,7 @@
                 });
 
             var request = {
-                query: '보건소',
+                query: '보건',
                 fields: ['name', 'geometry'],
             };
 

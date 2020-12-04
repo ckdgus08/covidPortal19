@@ -44,7 +44,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="detail">detail</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="bbs">게시판</a>
             </li>
             <%
@@ -56,7 +56,7 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/member/join">회원가입</a>
-            <%
+                    <%
             } else
             {
             %>
@@ -70,9 +70,12 @@
         </form>
     </div>
 </nav>
-<div>소개</div>
-
-
+<div>
+    <img
+            src="resources/static/image/main.jpeg"
+            style="display: block; margin: auto; width:1280px; height:720px;"
+    />
+</div>
 </body>
 
 <footer>

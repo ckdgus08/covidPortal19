@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"  errorPage="../error.jsp"%>
 <html>
 <head>
     <title>코로나19(covid19) 종합 포털 사이트</title>
