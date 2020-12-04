@@ -46,7 +46,7 @@
                 });
 
             var request = {
-                query: '보건',
+                query: '보건소',
                 fields: ['name', 'geometry'],
             };
 
