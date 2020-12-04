@@ -53,7 +53,7 @@
 <div class="container">
 	<div class="row">
 		<form method="post" action="updateAction">
-			<table class="table table-striped">
+			<table class="table table-striped" style="width: 1000px">
 				<thead>
 				<tr class="category">
 					<th colspan="2" class="bbs_title">게시판 글 수정 양식</th>

@@ -16,6 +16,10 @@ public class BbsDTO {
         this.count = count;
     }
 
+    public BbsDTO() {
+
+    }
+
     public Long getId() {
         return id;
     }

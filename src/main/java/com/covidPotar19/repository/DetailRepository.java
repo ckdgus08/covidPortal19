@@ -21,7 +21,7 @@ public class DetailRepository {
         try {
             em.persist(detail);
             return detail.getStateDt();
-        } catch (EntityExistsException e) {
+        } catch (Exception e) {
             return 0;
         }
     }

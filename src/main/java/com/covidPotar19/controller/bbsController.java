@@ -73,7 +73,6 @@ public class bbsController {
 
         bbs.get().setCount(bbs.get().getCount() + 1);
 
-
         model.addAttribute("bbs", bbs.get());
 
         return "view";

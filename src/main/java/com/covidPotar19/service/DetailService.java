@@ -48,15 +48,16 @@ public class DetailService {
 
         for (int i = start; i <= end; i++) {
 
-
             Detail detailFromStateDt = detailRepository.getDetailFromStateDt(i);
             if (detailFromStateDt != null) {
                 result.add(detailFromStateDt);
             } else {
                 List<Detail> detail = getJsonData(i, end);
                 for (Detail d : detail) {
-                    detailRepository.saveDetail(d);
-                    result.add(d);
+                    if(detailRepository.getDetailFromStateDt(d.getStateDt()) == null) {
+                        detailRepository.saveDetail(d);
+                        result.add(d);
+                    }
                 }
                 return result;
             }
@@ -82,9 +83,11 @@ public class DetailService {
                     + "&pageNo=" + pageNo
                     + "&numOfRows=" + numOfRows
                     + "&startCreateDt=" + startCreateDt
-                    + "&endCreateDt=" + startCreateDt;
+                    + "&endCreateDt=" + end;
 
             URL url = new URL(urlstr);
+
+            logger.info(urlstr);
 
             HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
 
@@ -96,8 +99,6 @@ public class DetailService {
 //                result = result + line;
 //            }
 //
-
-            logger.info(urlstr);
 
 
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
