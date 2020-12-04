@@ -1,6 +1,3 @@
-[INFO ] 2020-12-05 00:34:59.203 [restartedMain] DemoApplication - Started DemoApplication in 3.309 seconds (JVM running for 4.483)
-[INFO ] 2020-12-05 00:35:35.501 [http-nio-8080-exec-7] DetailService - http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19InfStateJson?serviceKey=OaY9khv9WTK0x96WqjSs260MzhdYxPKlJS0rYrOEDIYZBkKyprEgM0JzEcm5mQorMI7n%2BInSVIsQSQ3DxPDxOQ%3D%3D&pageNo=1&numOfRows=50&startCreateDt=20201205&endCreateDt=20201205
-[INFO ] 2020-12-05 00:39:44.528 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-[INFO ] 2020-12-05 00:39:44.537 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-[INFO ] 2020-12-05 00:39:44.542 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
-[INFO ] 2020-12-05 00:39:44.582 [SpringContextShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-12-05 00:40:20.312 [restartedMain] DemoApplication - Started DemoApplication in 3.693 seconds (JVM running for 5.126)
+[INFO ] 2020-12-05 00:41:33.086 [http-nio-8080-exec-9] DetailService - http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19InfStateJson?serviceKey=OaY9khv9WTK0x96WqjSs260MzhdYxPKlJS0rYrOEDIYZBkKyprEgM0JzEcm5mQorMI7n%2BInSVIsQSQ3DxPDxOQ%3D%3D&pageNo=1&numOfRows=50&startCreateDt=20201205&endCreateDt=20201205
+[INFO ] 2020-12-05 00:54:42.668 [http-nio-8080-exec-4] DetailService - http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19InfStateJson?serviceKey=OaY9khv9WTK0x96WqjSs260MzhdYxPKlJS0rYrOEDIYZBkKyprEgM0JzEcm5mQorMI7n%2BInSVIsQSQ3DxPDxOQ%3D%3D&pageNo=1&numOfRows=50&startCreateDt=20201205&endCreateDt=20201205
