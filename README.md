@@ -175,3 +175,13 @@ public class ServletRegistrationConfig {
      }
 }
 ```
+
+### 프로젝트 동작 방법 및 발표자료 주소
+
+* [구글드라이브 주소](https://drive.google.com/drive/folders/1NOjGZrmlvrKIPpITjF0xZ8sXUTfBY0SQ)
+* 설치 및 실행방법 
+1) 구글드라이브 혹은 깃 허브에서 소스코드를 내려 받는다.
+2) Intellij에서 프로젝트를 불러온다 를 . ( eclipse 사용하면 오작동 할 수 있음.)
+3) mysql 서버를 작동시킨다. ( url : localhost:3306/demo_test, username : root, password : 1004 )
+4) src/main/java/DemoApplication run 파일을 시킨다.
+5) localhost:8080로 접속한다.
